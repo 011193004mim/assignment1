@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.header{
+   
+    position: absolute;
+width: 1349px;
+height: 808px;
+
+background: url('../images/banner/banner1.png');
+}
+
+.banner-title{
+    position: absolute;
+   width: 450px;
+    height: 200px;
+    left: 800px;
+    top: 216px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+   
+    text-align: right;
+    
+    color: #151414;
+    
+}
+
+.banner-description{
+
+position: absolute;
+width: 450px;
+height: 78px;
+left: 800px;
+top: 468px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+color: #444343;
+}
+.btn-primary{
+    position: absolute;
+width: 170px;
+height: 70px;
+left: 1100px;
+top: 578px;
+
+    color: #ffffff;
+  
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+border: 0;
+
+}
+
+.image{
+
+    position: absolute;
+width: 569px;
+height: 723.3px;
+left: 100px;
+top: 952px;
+margin: 0;
+}
+.main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.main-title{
+    position: absolute;
+width: 288px;
+height: 94px;
+left: 862px;
+top: 1178px;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #151414;
+}
+.main-description{
+    position: absolute;
+width: 416px;
+height: 104px;
+left: 862px;
+top: 1296px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+
+color: #444343;
+
+}
+.details1{
+
+    position: absolute;
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1416px;
+}
+.p{
+    font-size: 16px;
+line-height: 26px;
+
+color: #444343;
+
+    margin-bottom: 10px;
+    
+}
+
+.plan{
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    left: 230px;
+    top: 1793px; 
+}
+.skills-container{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+padding-left: 50px;
+    }
+    .skill{
+    border: 0;
+        background: #FFFFFF;
+     
+        text-align: center;
+        
+    }
+    .section-plan{
+        text-align: center;
+        font-size: 700;
+        font-size: 40px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+       
+    }
+   .skill-title{
+ 
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+   }
+   .skill-description{
+padding-top: 10px;
+font-size: 16px;
+
+   }
+/* Call Section*/
+   .second-banner{
+    position: absolute;
+    background-image: url('../images/watch.png');
+    background-color: #F15B22;
+    background-image: linear-gradient( to right,#F15B22 yellow );
+    width: 1000px;
+    height: 300px;
+    top: 2222px;
+    border: 0;
+border-radius: 8px;
+   }
+   .call{
+color: #F15B22;
+    width: 459px;
+    height: 94px;
+    top: 2282px;
+    padding-left: 75px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+   }
+   .call-now{
+    width: 160px;
+    height: 64px;
+    top: 2340px;
+    margin-top: 20px;
+    margin-left: 100px;
+   text-align: center;
+   
+    border-radius: 5px;
+    border: 0;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    
+
+    
+   }
+   /* footer */
+   .contact{
+    position: absolute;   
+     display: flex;
+    color: #FFFFFF;
+    background: #000000;
+ width: 100%;
+ height: 400px;
+ top: 2652px;
+gap: 100px;
+
+   }
+   .contact .description{
+    width: 485px;
+    height: 317px;
+    top: 2783px;
+    left: 230px;
+   }
+
+   .contact .section-desc{
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    padding-bottom: 10px;
+   }
+.contact a{
+    text-decoration: none;
+}
+
+.contact .section-title{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
